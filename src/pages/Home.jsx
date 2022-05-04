@@ -14,13 +14,16 @@ function Home(){
       const initialState=useInitialState();    
       return (
       <AppContext.Provider value={initialState}>     
-        <CreateToDoButton />                       
+      <>
+      <CreateToDoButton />                       
         <ToDoList/>
         {initialState.state.modal&&
           <Modal>
             <CreateToDoForm/>
           </Modal>
         }             
+      </>
+        
       </AppContext.Provider> 
       );
     
