@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ToDo-Entrevista-Tecnica/precache-manifest.20d9b978b1e85dd91cbce2b0bccb4dba.js"
+  "/ToDo-Entrevista-Tecnica/precache-manifest.8ddc849f54c37e618c52406afe52d515.js"
 );
 
 workbox.clientsClaim();
