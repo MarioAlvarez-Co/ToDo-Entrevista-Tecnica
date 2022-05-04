@@ -5,11 +5,11 @@ import '../styles/TodoDetails.css'
 function ToDoDetails(){
     const {Todos}=React.useContext(AppContext)     ;
     const info=Todos.find((item)=>item.id===useParams().id);
-    console.log(info)
+    
     return(
-        <div className={`ToDoDetails ${info.importance && "importante"}`} >
+        <div className={`ToDoDetails `} >
             <div className='info'>
-             <p className='info-campo' >{ info.importance&&"importante"}</p>
+             <p className='info-campo'></p>
              <h2>{info.title}</h2>
              <p className='info-campo'>Fecha de Creacion:</p>
              <p>{info.creationDate}</p>   
