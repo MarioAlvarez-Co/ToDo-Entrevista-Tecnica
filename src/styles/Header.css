@@ -1,0 +1,25 @@
+@import url('vars.css');
+.Header{
+    color: white;
+    background-color:var(--ligth-green);
+    width: 100vw;
+    height: 8vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 280px);    
+    justify-content:space-around;
+    place-items: center;
+    
+    
+}
+.Header a{
+    text-decoration: none;
+color: white;
+}
+
+.Header span{  
+    flex-grow: 1;
+    align-self: center;           
+    font-weight:500;
+    justify-self: end;
+
+}

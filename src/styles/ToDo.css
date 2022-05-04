@@ -1,0 +1,58 @@
+@import url('vars.css');
+.ToDo{    
+    color: white;
+    background-color: var(--ligth-green);
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 8px;
+    padding: 10px;
+    
+    min-height:460px;
+    max-height:460px;
+    height: min-content;
+    overflow:hidden;
+    
+}
+.ToDo:hover{
+    transform: scale(1.04);
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 0px 5px 22px 6px  var(--ligth-green);
+    
+}
+.ToDo a{
+    text-decoration: none;
+    color: white;
+}
+.info-campo{
+    margin-top: 4px;
+    font-weight: bold;
+}
+.ToDo figure img{
+    border:2px solid white;
+    margin-top: 10px;
+    width: 240px;
+    height:280px ;
+}
+.ToDo button{
+    position:relative;
+    left: 200px;
+    top: 10px;
+    background-image: url('../assets/eliminar.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    
+
+    
+}
+.ToDo button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.importante{
+    background-color: brown;
+}

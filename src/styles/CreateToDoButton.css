@@ -1,0 +1,28 @@
+@import url('vars.css');
+.CreateTodoButton {
+    padding: 13px 30px;
+    font-size: 16px;
+    margin: 12px;
+    background-color: white;
+    border:solid var(--ligth-green);
+    font-weight: 500;
+    color:var(--ligth-green);
+    width: 280px;   
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+   
+   }
+   
+.CreateTodoButton:hover {
+    background-color: var(--ligth-green);
+    box-shadow: 0px 15px 20px var(--ligth-green);
+    color: #fff;
+    transform: translateY(-7px);
+    border:solid white;
+   }
+   
+.CreateTodoButton:active {
+    transform: translateY(-1px);
+   }

@@ -1,0 +1,18 @@
+
+.ToDoList{
+    height: 100%;
+    padding: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 280px);    
+    justify-content:center;
+    gap: 15px;
+    
+}
+
+@media (max-width: 640px) {
+    .ToDoList{
+        grid-template-columns: repeat(auto-fit, 300px);
+    }
+    
+}

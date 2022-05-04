@@ -1,0 +1,19 @@
+@import url('vars.css');
+.SearchToDo img{
+    width: 18px;
+}
+.SearchToDo input{
+    color: white;
+    font-size: 16px;
+    border: none;
+    width: 108px;
+    border-bottom:2px solid white ;
+    cursor:text;
+    outline: none;
+    background-color: transparent;
+}
+.SearchToDo input::placeholder{
+    color: white;
+}
+
+
